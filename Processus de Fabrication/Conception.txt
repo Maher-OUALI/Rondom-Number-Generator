@@ -1,0 +1,4 @@
+L'idée est d'utiliser le bruit d'avalanche créé dans un transistor avec une borne non connectée 
+Pour ce projet, j'utilise deux petits générateurs de bruit puis j'utilise un amplificateur pour chacun et enfin je fais passer les deux signaux par un différenciateur.
+En fixant un seuil, si ce dernier est atteint ou dépassé on compte un "1" logique sinon un "0" et de cette manière une séquence de bits alétoire est générée.
+Pour tester la performance dans des conditions extrêmes, on joue sur la température du système pour voir l'effet de cette grandeur sur la qualité de la séquence générée ( la qualité est discutée dans la section de validation)
